@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 2,
+  "status": "v5: structural navigation walls, upright flat character, one reference car and flat street people",
+  "units": "main house maximum width=100, no physical unit asserted",
+  "coordinateSystem": {
+    "x": "right",
+    "y": "back to front on plan",
+    "z": "up for future building model",
+    "note": "map plan y to Three.js +Z, height to +Y"
+  },
+  "mainEnvelope": [
+    0,
+    0,
+    100,
+    80
+  ],
+  "rooms": [
+    {
+      "id": "washitsu",
+      "name": "和室 / 睡眠",
+      "floor": 1,
+      "rect": [
+        0,
+        0,
+        34,
+        34
+      ],
+      "color": "#dce8c8",
+      "sourceIds": [
+        "base-plan",
+        "current-05",
+        "current-07"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "dk",
+      "name": "厨房 · 餐厅",
+      "floor": 1,
+      "rect": [
+        34,
+        0,
+        38,
+        34
+      ],
+      "color": "#f4dfd1",
+      "sourceIds": [
+        "base-plan",
+        "current-05",
+        "current-17",
+        "current-27"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "wash",
+      "name": "洗面脱衣",
+      "floor": 1,
+      "rect": [
+        72,
+        4,
+        13,
+        19
+      ],
+      "color": "#d8e9ec",
+      "sourceIds": [
+        "base-plan",
+        "current-05"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "bath",
+      "name": "浴室",
+      "floor": 1,
+      "rect": [
+        85,
+        4,
+        15,
+        19
+      ],
+      "color": "#c4dce7",
+      "sourceIds": [
+        "base-plan",
+        "current-05"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "wc",
+      "name": "厕所",
+      "floor": 1,
+      "rect": [
+        85,
+        23,
+        15,
+        11
+      ],
+      "color": "#e6ddeb",
+      "sourceIds": [
+        "base-plan",
+        "current-05"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "hall",
+      "name": "走廊",
+      "floor": 1,
+      "rect": [
+        72,
+        23,
+        10,
+        39
+      ],
+      "color": "#e9e8e2",
+      "sourceIds": [
+        "base-plan",
+        "current-16"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "hall-branch",
+      "name": "",
+      "floor": 1,
+      "rect": [
+        82,
+        23,
+        3,
+        11
+      ],
+      "color": "#e9e8e2",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "living",
+      "name": "客厅 / 居间",
+      "floor": 1,
+      "rect": [
+        22,
+        34,
+        50,
+        38
+      ],
+      "color": "#e5ebc9",
+      "sourceIds": [
+        "base-plan",
+        "current-05",
+        "current-07"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "stairs",
+      "name": "楼梯",
+      "floor": 1,
+      "rect": [
+        82,
+        34,
+        18,
+        28
+      ],
+      "color": "#e7d6b8",
+      "sourceIds": [
+        "base-plan",
+        "current-16"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "entry",
+      "name": "玄关",
+      "floor": 1,
+      "rect": [
+        72,
+        62,
+        28,
+        18
+      ],
+      "color": "#eadfc8",
+      "sourceIds": [
+        "base-plan",
+        "current-16"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "carport",
+      "name": "车棚",
+      "floor": 1,
+      "rect": [
+        100,
+        34,
+        27,
+        46
+      ],
+      "color": "#dce2dd",
+      "sourceIds": [
+        "base-plan",
+        "current-05"
+      ],
+      "outdoor": true,
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "upper-back",
+      "name": "备用房",
+      "floor": 2,
+      "rect": [
+        23,
+        0,
+        59,
+        24
+      ],
+      "color": "#dce8c8",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "upper-front",
+      "name": "书房",
+      "floor": 2,
+      "rect": [
+        23,
+        24,
+        59,
+        38
+      ],
+      "color": "#dbe5ec",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "upper-storage",
+      "name": "押入",
+      "floor": 2,
+      "rect": [
+        82,
+        0,
+        18,
+        14
+      ],
+      "color": "#eadfc8",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "landing",
+      "name": "平台",
+      "floor": 2,
+      "rect": [
+        82,
+        14,
+        18,
+        20
+      ],
+      "color": "#e9e8e2",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "stair-void",
+      "name": "楼梯洞",
+      "floor": 2,
+      "rect": [
+        82,
+        34,
+        18,
+        28
+      ],
+      "color": "#e7d6b8",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    },
+    {
+      "id": "balcony",
+      "name": "前阳台",
+      "floor": 2,
+      "rect": [
+        27,
+        62,
+        42,
+        9
+      ],
+      "color": "#e1e9e3",
+      "sourceIds": [
+        "base-plan"
+      ],
+      "evidence": "inferred dimensions; reference-supported adjacency",
+      "dimensionType": "gross planning envelope, not clear interior size"
+    }
+  ],
+  "portals": [
+    {
+      "id": "bed-dk",
+      "a": "washitsu",
+      "b": "dk",
+      "axis": "y",
+      "line": 34,
+      "start": 23,
+      "end": 31,
+      "kind": "sliding"
+    },
+    {
+      "id": "dk-living",
+      "a": "dk",
+      "b": "living",
+      "axis": "x",
+      "line": 34,
+      "start": 44,
+      "end": 64,
+      "kind": "wide sliding"
+    },
+    {
+      "id": "dk-hall",
+      "a": "dk",
+      "b": "hall",
+      "axis": "y",
+      "line": 72,
+      "start": 25,
+      "end": 33,
+      "kind": "hinged"
+    },
+    {
+      "id": "living-hall",
+      "a": "living",
+      "b": "hall",
+      "axis": "y",
+      "line": 72,
+      "start": 45,
+      "end": 54,
+      "kind": "hinged"
+    },
+    {
+      "id": "wash-hall",
+      "a": "wash",
+      "b": "hall",
+      "axis": "x",
+      "line": 23,
+      "start": 74,
+      "end": 81,
+      "kind": "hinged"
+    },
+    {
+      "id": "bath-wash",
+      "a": "wash",
+      "b": "bath",
+      "axis": "y",
+      "line": 85,
+      "start": 11,
+      "end": 19,
+      "kind": "sliding"
+    },
+    {
+      "id": "hall-to-branch",
+      "a": "hall",
+      "b": "hall-branch",
+      "axis": "y",
+      "line": 82,
+      "start": 25,
+      "end": 32,
+      "kind": "open"
+    },
+    {
+      "id": "wc-hall",
+      "a": "hall-branch",
+      "b": "wc",
+      "axis": "y",
+      "line": 85,
+      "start": 25,
+      "end": 32,
+      "kind": "hinged"
+    },
+    {
+      "id": "entry-hall",
+      "a": "entry",
+      "b": "hall",
+      "axis": "x",
+      "line": 62,
+      "start": 73,
+      "end": 81,
+      "kind": "open"
+    },
+    {
+      "id": "entry-stair",
+      "a": "entry",
+      "b": "stairs",
+      "axis": "x",
+      "line": 62,
+      "start": 84,
+      "end": 97,
+      "kind": "open"
+    },
+    {
+      "id": "upper-back-door",
+      "a": "upper-back",
+      "b": "landing",
+      "axis": "y",
+      "line": 82,
+      "start": 15,
+      "end": 23,
+      "kind": "hinged"
+    },
+    {
+      "id": "upper-front-door",
+      "a": "upper-front",
+      "b": "landing",
+      "axis": "y",
+      "line": 82,
+      "start": 25,
+      "end": 33,
+      "kind": "hinged"
+    },
+    {
+      "id": "upper-storage-door",
+      "a": "upper-storage",
+      "b": "landing",
+      "axis": "x",
+      "line": 14,
+      "start": 86,
+      "end": 94,
+      "kind": "sliding"
+    },
+    {
+      "id": "balcony-door",
+      "a": "upper-front",
+      "b": "balcony",
+      "axis": "x",
+      "line": 62,
+      "start": 35,
+      "end": 60,
+      "kind": "sliding"
+    }
+  ],
+  "stairs": {
+    "floor1Rect": [
+      82,
+      34,
+      18,
+      28
+    ],
+    "floor2OpeningRect": [
+      82,
+      34,
+      18,
+      28
+    ],
+    "type": "two-run return stair, proposed",
+    "topExit": "rear edge y=34",
+    "bottomEntry": "front edge y=62",
+    "rise": "floor-to-floor=28..30 units proposed",
+    "needs": "check headroom and landing before geometry"
+  },
+  "walls": {
+    "external": 2,
+    "internal": 1.2,
+    "note": "axis guide values; deduct thickness for clear sizes"
+  },
+  "openings": {
+    "internalDoor": "7..9",
+    "mainDoor": "9..11",
+    "slidingDKLiving": 20
+  },
+  "furnitureFootprints": {
+    "livingLowTable": [
+      17,
+      10
+    ],
+    "diningTable": [
+      16,
+      10
+    ],
+    "chairClearance": 6,
+    "singleFuton": [
+      9,
+      19
+    ],
+    "kitchenCounterDepth": 6
+  },
+  "exclusions": [
+    "character animation",
+    "interactive lighting",
+    "precise original measurements"
+  ],
+  "acceptance": [
+    "no room-zone overlap",
+    "all occupied first-floor rooms connected to entry",
+    "stair footprint aligned across floors",
+    "both upper doors open to landing with 8-unit widths"
+  ],
+  "implementation": {
+    "scale": 0.1,
+    "floorToFloor": 2.9,
+    "wallHeight": 2.6,
+    "stairs": "16 straight treads, lower run extends to plan y=72 within entry; 38 run / 29 rise; clearance not certified",
+    "exteriorIntegration": "exterior rebuilt to match accepted room boundaries; same floor groups and wall meshes",
+    "materials": "procedural wood grain, tatami and tile; flat cartoon palette",
+    "detailPass": "roof soffit, gutters, removable ceilings, garden and doghouse, future-target IDs"
+  },
+  "facadeOpenings": [
+    {
+      "id": "washitsu-garden-window",
+      "floor": 1,
+      "axis": "x",
+      "line": 34,
+      "start": 3,
+      "end": 19,
+      "kind": "window"
+    },
+    {
+      "id": "upper-west-window",
+      "floor": 2,
+      "axis": "y",
+      "line": 23,
+      "start": 8,
+      "end": 22,
+      "kind": "window"
+    },
+    {
+      "id": "entry-sidelight",
+      "floor": 1,
+      "axis": "x",
+      "line": 80,
+      "start": 91,
+      "end": 97,
+      "kind": "window"
+    },
+    {
+      "id": "upper-front-narrow",
+      "floor": 2,
+      "axis": "x",
+      "line": 62,
+      "start": 74,
+      "end": 80,
+      "kind": "window"
+    },
+    {
+      "id": "upper-side-window-a",
+      "floor": 2,
+      "axis": "y",
+      "line": 100,
+      "start": 18,
+      "end": 26,
+      "kind": "window"
+    },
+    {
+      "id": "upper-side-window-b",
+      "floor": 2,
+      "axis": "y",
+      "line": 100,
+      "start": 43,
+      "end": 53,
+      "kind": "window"
+    }
+  ],
+  "roofAssembly": [
+    {
+      "id": "upper-hip-roof",
+      "rect": [
+        1.87,
+        -0.43,
+        10.43,
+        6.63
+      ],
+      "eave": 5.555,
+      "rise": 1.36,
+      "holes": []
+    },
+    {
+      "id": "lower-main-roof",
+      "rect": [
+        2.17,
+        -0.35,
+        10.42,
+        8.4
+      ],
+      "eave": 2.62,
+      "rise": 0.38,
+      "holes": [
+        [
+          2.17,
+          -0.18,
+          10.18,
+          6.38
+        ],
+        [
+          2.6,
+          6.2,
+          7,
+          7.2
+        ]
+      ]
+    },
+    {
+      "id": "lower-west-wing-roof",
+      "rect": [
+        -0.38,
+        -0.35,
+        2.17,
+        3.8
+      ],
+      "eave": 2.62,
+      "rise": 0.55,
+      "holes": []
+    }
+  ],
+  "doghouse": {
+    "id": "shiro-doghouse",
+    "position": [
+      0.75,
+      -0.065,
+      4.8
+    ],
+    "roof": "blue gable",
+    "entrance": "real concave arch opening",
+    "clearOfWestEave": true
+  },
+  "roads": {
+    "type": "fictional residential L junction",
+    "front": {
+      "x": [
+        -6.3,
+        14.4
+      ],
+      "z": [
+        10.7,
+        14.3
+      ]
+    },
+    "west": {
+      "x": [
+        -6.3,
+        -2.7
+      ],
+      "z": [
+        -2.3,
+        10.7
+      ]
+    },
+    "width": 3.6,
+    "features": [
+      "sidewalks",
+      "curbs",
+      "crossings",
+      "dashed center lines",
+      "drains",
+      "manholes",
+      "driveway curb cut"
+    ],
+    "scale": "scene units; not real survey or road design standard"
+  },
+  "interactionVersion": 4,
+  "traffic": {
+    "cars": 1,
+    "cyclists": 0,
+    "walkers": 5,
+    "route": "front street, rounded continuous loop for the car; fixed edge lanes and sidewalks for people",
+    "carSource": "../research/scene.js car() snapshot referenced by cartoon-world-builder provenance",
+    "carScale": 0.62,
+    "characterStyle": "upright 2D planes",
+    "navigationRadius": 0.3,
+    "women": 2,
+    "shoppers": 3
+  },
+  "ui": {
+    "help": "top-right",
+    "doorControl": "click visible door",
+    "seatControl": "nearby contextual sit / stand button",
+    "trafficPause": false,
+    "actorStatusPanel": false
+  }
+}
